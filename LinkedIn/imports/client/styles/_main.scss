@@ -1,0 +1,24 @@
+h1{
+  color: rgb(173, 50, 50);
+  font-size: 30px;
+}
+body{
+  background-color: rgb(36, 36, 36);
+}
+.siteTitle{
+  font-size: 40px;
+}
+.votes{
+  color: rgb(56, 150, 56);
+}
+.navItem{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+.navItem:hover{
+  color: rgb(218, 82, 82);
+}
+@import './components/singleItem';
+@import './components/postBox';
+@import './components/button';

@@ -1,0 +1,33 @@
+.button{
+    color: black;
+    background-color: lightgreen;
+    border: 1px solid darkgray;
+    margin: 1.0rem;
+    height: 3rem;
+    width: 5rem;
+
+    &:hover {
+        background-color: rgb(40, 109, 40);
+    }
+    &:active {
+        background: white;
+    }
+}
+
+.button--small{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    
+}
+
+.button--delete{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(173, 50, 50);
+
+    &:hover {
+        background-color: rgb(107, 38, 38);
+    }
+}
