@@ -1,0 +1,14 @@
+.itemBlock {
+    background-color: darkgray;
+    border: 2px black solid;
+    margin-top: .5rem;
+    padding: 1.5rem;
+}
+.itemBlock--post{
+    background-color: white;
+}
+.itemBlock--comment{
+    background: rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-between;
+}
